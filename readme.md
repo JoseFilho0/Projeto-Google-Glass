@@ -23,4 +23,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Google Glass
 
-- [Acesse o projeto finalizado, online]()
+- [Acesse o projeto finalizado, online](https://josefilho0.github.io/Projeto-Google-Glass/)
