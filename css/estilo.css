@@ -98,6 +98,7 @@ nav#menu ul{
     top: -18px;
     padding-left: 270px;
 }
+/*Quem tiver com problema no menu, por ele tá se movimentando, basta colocar o padding-left no lugar de left. Pois o left para telas maiores não seria suficiente*/
 
 nav#menu li{  
     display: inline-block;
