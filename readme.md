@@ -8,7 +8,7 @@
 <br>
 
 <p align="center">
-  <img alt="projeto MeusLinks" src="./_imagens/foto-inicio.png" width="100%">
+  <img alt="projeto MeusLinks" src="./imagens/foto-inicio.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
