@@ -26,22 +26,22 @@ fieldset{
     margin: 20px;
 }
 
-fieldset#sexo {
+#sexo {
     width: 160px;
 }
 
-fieldset#usuario {
+#usuario {
     background: url(../imagens/icone-contato.png) no-repeat 95% 95%;
 }
 
-fieldset#endereco {
+#endereco {
     background: url(../imagens/icone-endereco.png) no-repeat 95% 95%;
 }
 
-fieldset#mensagem {
+#mensagem {
     background: url(../imagens/icone-mensagem.png) no-repeat 95% 95%;
 }
 
-fieldset#pedido {
+#pedido {
     background: url(../imagens/icone-pagamento.png)no-repeat 95% 95%;
 }

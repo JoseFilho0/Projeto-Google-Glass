@@ -35,19 +35,19 @@ a:hover {
     text-decoration: underline;
 }
 
-header#cabecalho img#icone{
+#cabecalho img#icone{
     position: absolute;
     left: 780px;
     top: 70px;
 }
 
-header#cabecalho {
+#cabecalho {
     border-bottom: 1px #606060 solid;
     height: 150px;
     background: url(../imagens/glass-logo-peq.jpg) no-repeat 0px 90px;
 }
 
-header#cabecalho h1{
+#cabecalho h1{
     font-family: 'FonteLogo', sans-serif;
     font-size: 30pt;
     color: #606060;
@@ -56,7 +56,7 @@ header#cabecalho h1{
     margin-bottom: 10px;
 }
 
-header#cabecalho h2 {
+#cabecalho h2 {
     font-family: 'FonteLogo2', sans-serif;
     font-size: 15pt;
     color: #888888;
@@ -64,17 +64,17 @@ header#cabecalho h2 {
     margin-top: 8px;
 }
 
-figure.foto-legenda {
+.foto-legenda {
     position: relative;
     border: 8px solid white;
     box-shadow: 1px 1px 4px black;
 }
 
-figure.foto-legenda img {
+.foto-legenda img {
     width: 100%;
     height: 100%;
 }
-figure.foto-legenda figcaption{
+.foto-legenda figcaption{
     opacity: 0;
     position: absolute;
     top: 0;
@@ -87,11 +87,11 @@ figure.foto-legenda figcaption{
     transition: opacity 1s;
 }
 
-figure.foto-legenda:hover figcaption {
+.foto-legenda:hover figcaption {
     opacity: 1;
 }
 
-nav#menu ul{
+#menu ul{
     list-style: none;
     text-transform: uppercase;
     position: absolute;
@@ -100,7 +100,7 @@ nav#menu ul{
 }
 /*Quem tiver com problema no menu, por ele tá se movimentando, basta colocar o padding-left no lugar de left. Pois o left para telas maiores não seria suficiente*/
 
-nav#menu li{  
+#menu li{  
     display: inline-block;
     background-color: #dddddd;
     padding: 10px;
@@ -108,26 +108,26 @@ nav#menu li{
     transition: 0.5s;
 }
 
-nav#menu li:hover{
+#menu li:hover{
     background-color: #606060;
 
 }
 
-nav#menu h1{
+#menu h1{
     display: none;
 }
 
-nav#menu a {
+#menu a {
     color: #000000;
     text-decoration: none;
 }
 
-nav#menu a:hover{
+#menu a:hover{
     color: #fff;
     text-decoration: underline;
 }
 
-section#corpo {
+#corpo {
     display: block;
     width: 500px;
     float: left;
@@ -135,7 +135,7 @@ section#corpo {
     padding: 10px;
 }
 
-article#noticia-p h2{
+#noticia-p h2{
     font-size: 12pt;
     color: #606060;
     background-color: #dddddd;
@@ -143,7 +143,7 @@ article#noticia-p h2{
     margin: 10px 0px 10px 0px;
 }
 
-header#cabecalho-artigo h1{
+#cabecalho-artigo h1{
     font-family: 'FonteLogo';
     font-size: 20pt;
     color: #606060;
@@ -151,14 +151,14 @@ header#cabecalho-artigo h1{
     margin-top: 0px;
 }
 
-header#cabecalho-artigo h2{
+#cabecalho-artigo h2{
     font-size: 13pt;
     color: #cecece;
     background-color: #fff;
     margin: 0px;
 }
 
-header#cabecalho-artigo h3{
+#cabecalho-artigo h3{
     font-size: 12px;
     color: #606060;
 }
@@ -167,7 +167,7 @@ header#cabecalho-artigo h3{
     text-align: right;
 }
 
-table#tabela {
+#tabela {
     border: 1px solid #606060;
     border-spacing: 0px;
     margin-left: auto;
@@ -175,14 +175,14 @@ table#tabela {
     box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
 }
 
-table#tabela td {
+#tabela td {
     border: 1px solid #606060;
     padding: 10px;
     text-align: center;
     vertical-align: middle;
 }
 
-table#tabela td.ce{
+#tabela td.ce{
     vertical-align: top;
     color: #fff;
     background-color: #606060;
@@ -190,7 +190,7 @@ table#tabela td.ce{
     font-weight: bold;
 }
 
-table#tabela td.cd{
+#tabela td.cd{
     text-align: left;
     color: #000000;
     background-color: #cecece;
@@ -202,7 +202,7 @@ caption {
     font-weight: bold;
 }
 
-table#tabela caption span{
+#tabela caption span{
     display: block;
     float: right;
     color: #000000;
@@ -210,7 +210,7 @@ table#tabela caption span{
     margin-top: 10px;
 }
 
-aside#lateral{
+#lateral{
     display: block;
     width: 350px;
     float: right;
@@ -220,30 +220,30 @@ aside#lateral{
     box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
 }
 
-aside#lateral h1{
+#lateral h1{
     font-family: 'FonteLogo';
     font-size: 20pt;
     color: #606060;
     margin-top: 0px;
 }
 
-aside#lateral h2 {
+#lateral h2 {
     background-color: #606060;
     font-size: 13pt;
     color: #fff;
     padding: 5px;
 }
 
-footer#rodape{
+#rodape{
     clear: both;
     border-top: 1px solid #606060
 }    
 
-footer#rodape p{
+#rodape p{
     text-align: center;
 }
 
-video#video-1 {
+#video-1 {
     display: block;
     position: relative;
     width: 400px;
@@ -251,7 +251,7 @@ video#video-1 {
     left: 45px;
 }
 
-video#video-2 {
+#video-2 {
     display: block;
     position: relative;
     width: 345px;
